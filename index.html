@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WidgetBot Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .widget-container {
+            width: 100%;
+            max-width: 800px;
+            height: 600px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="widget-container">
+        <widgetbot
+            server="1298379672756818101"
+            channel="1298379672756818104"
+            width="800"
+            height="600"
+        ></widgetbot>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+</body>
+</html>
